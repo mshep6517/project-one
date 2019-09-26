@@ -65,20 +65,23 @@
 
 /*-------------Heading----------------*/
 
-header {
-    margin: 0;
-}
+
 
 .heading {
-    margin: 0;
+    margin-bottom: 0;
+}
+
+.border {
+    border-style: solid;
+    border-color: #fafafa;
 }
 
 .logo {
-    background: url("..//images/hellhound.png");
+    background: url("..//images/hell hound wp.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 150px;
+    min-height: 200px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -86,12 +89,13 @@ header {
 
 
 .name {
-    font-family: "Exo", sans-serif;
+    font-family: 'mansava', serif;
     font-weight: 100;
-    font-size: 45px;
-    margin-top: 50px;
+    font-size: 55px;
+    margin-top: 20px;
     color: #ffffff;
     text-align: center;
+    text-shadow: 15px,15px,0px,#fafafa;
 }
 
 .title {
@@ -99,7 +103,7 @@ header {
     font-weight: 200;
     font-size: 30px;
     margin-top: 10px;
-    margin-bottom: 90px;
+    margin-bottom: 20px;
     color: #ffffff;
     text-align: center;
 }
@@ -110,6 +114,44 @@ header {
 .nav-link-home {
     background-color: #000000;
     color: #fafafa;
+    padding: 20px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #fafafa;
+}
+
+.nav-link-clips {
+    background-color: #000000;
+    color: #fafafa;
+    padding: 20px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #fafafa;
+}
+
+.nav-link-donations {
+    background-color: #000000;
+    color: #fafafa;
+    padding: 20px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #fafafa;
+}
+
+.nav-link-giveaways {
+    background-color: #000000;
+    color: #fafafa;
+    padding: 20px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #fafafa;
+}
+
+.navbar {
+    background-color: #000000;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #fafafa;
 }
 
 
