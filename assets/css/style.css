@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/*--------------COLORS---------------*/
+
+
+
+
+.bg-color-name-title {
+    background-color: #F31515;
+    color: #FAFAFA;
+}
+
+.nav-link-home {
+    background-color: #696969;
+    color: #fafafa;
+}
+
+.nav-link-clips {
+    background-color: #A4A4A4;
+}
+
+.nav-link-donations {
+    background-color: #D8D8D8;
+}
+
+.nav-link-giveaways {
+    background-color: #E6E6E6;
+}
+
+
+
+
+/*-------------Background Image-------------*/
+
+.background {
+
+    height: 100vh;
+
+
+
+    background: url('../images/blk n red bg.jpg') no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-size: cover;
+
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+
+    position: relative;
+
+}
+
+/*-------------Heading----------------*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin: 0;
+}
+
+.logo {
+    background: url("..//images/hellhound.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 150px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+    margin-top: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/*-------------------NavBar--------------------*/
+
+.nav-link-home {
+    background-color: #000000;
+    color: #fafafa;
+}
+
+
+
+
+/*--------------------Schedule----------------*/
+
+
+
+
+.section-heading {
+    color: #fafafa;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.schedule-item {
+    color: #FF0000;
+    font-size: 14px;
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+
+/*--------------------------Introduction--------------------*/
+
+.introduction-heading {
+    color: #fafafa;
+}
+
+.paragraph {
+    color: #fafafa;
+}
+
+
+/*-----------------------------------Hover.CSS */
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 200px;
+}
+
+
+/*----------------------------------- Media Query*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+
