@@ -11,6 +11,10 @@
     color: #FAFAFA;
 }
 
+.schedule-section {
+    background-color: #010101;
+}
+
 .nav-link-home {
     background-color: #696969;
     color: #fafafa;
@@ -202,11 +206,11 @@
 /*----------------------------------- Media Query*/
 
 @media(min-width: 992px) {
-    .center-form {
+    .nav {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
-        max-width: 50%;
+        max-width: 100%;
     }
 }
 
