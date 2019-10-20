@@ -1,217 +1,75 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
-
-/*--------------COLORS---------------*/
-
-
-
-
-.bg-color-name-title {
-    background-color: #F31515;
-    color: #FAFAFA;
+body {
+    padding: 0;
+    margin: 0;
+    background: #070508;
+    overflow-x: hidden;
 }
-
-.schedule-section {
-    background-color: #010101;
-}
-
-.nav-link-home {
-    background-color: #696969;
-    color: #fafafa;
-}
-
-.nav-link-clips {
-    background-color: #A4A4A4;
-}
-
-.nav-link-donations {
-    background-color: #D8D8D8;
-}
-
-.nav-link-giveaways {
-    background-color: #E6E6E6;
-}
-
-
-
-
-/*-------------Background Image-------------*/
-
-.background {
-
-    height: 100vh;
-
-
-
-    background: url('../images/blk n red bg.jpg') no-repeat center center fixed;
-
-    -webkit-background-size: cover;
-
-    -moz-background-size: cover;
-
-    -o-background-size: cover;
-
+.content {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url(../images/background.jpg);
     background-size: cover;
-
-
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-
-
-    position: relative;
-
-}
-
-/*-------------Heading----------------*/
-
-
-
-.heading {
-    margin-bottom: 0;
-}
-
-.border {
-    border-style: solid;
-    border-color: #fafafa;
-}
-
-.logo {
-    background: url("..//images/hell hound wp.png");
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+
 }
-
-
-.name {
-    font-family: 'mansava', serif;
-    font-weight: 100;
-    font-size: 55px;
-    margin-top: 20px;
-    color: #ffffff;
-    text-align: center;
-    text-shadow: 15px,15px,0px,#fafafa;
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin:0;
 }
-
-.title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-size: 30px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: #ffffff;
-    text-align: center;
+.body-box {
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: 550px;
 }
-
-
-/*-------------------NavBar--------------------*/
-
-.nav-link-home {
-    background-color: #000000;
-    color: #fafafa;
-    padding: 20px;
-    margin-top: 20px;
-    border-style: solid;
-    border-color: #fafafa;
+.logo {
+    position: absolute;
+    top: 140px;
+    right: 60px;
 }
-
-.nav-link-clips {
-    background-color: #000000;
-    color: #fafafa;
-    padding: 20px;
-    margin-top: 20px;
-    border-style: solid;
-    border-color: #fafafa;
+.top-design {
+    position: absolute;
+    top: 0;
+    height: 10px;
+    width: 100%;
+    background: rgb(78, 78, 78);
 }
-
-.nav-link-donations {
-    background-color: #000000;
-    color: #fafafa;
-    padding: 20px;
-    margin-top: 20px;
-    border-style: solid;
-    border-color: #fafafa;
+.top-box {
+    position: absolute;
+    top: 10px;
+    height: 40px;
+    width: 100%;
+    background: rgb(31, 31, 31);
 }
+.top-box ul {
+    list-style-type: none;
+    margin: 8px 25%;
+    width: 100%;
 
-.nav-link-giveaways {
-    background-color: #000000;
-    color: #fafafa;
-    padding: 20px;
-    margin-top: 20px;
-    border-style: solid;
-    border-color: #fafafa;
 }
+.top-box ul li {
+    list-style: none;
+    display: inline;
 
-.navbar {
-    background-color: #000000;
-    margin-top: 20px;
-    border-style: solid;
-    border-color: #fafafa;
 }
-
-
-
-
-/*--------------------Schedule----------------*/
-
-
-
-
-.section-heading {
-    color: #fafafa;
-    text-align: center;
-    margin-left: 20px;
+.top-box ul li a{
+    padding: 0 50px;
+    text-decoration: none;
+    color: white;
+    font-family:'Knewave', cursive; 
 }
+.title-box {
+    position: absolute;
+    top: 190px;
+    right: 240px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Knewave', cursive; 
 
-.schedule-item {
-    color: #FF0000;
-    font-size: 14px;
-    text-align: center;
 }
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-
-
-/*--------------------------Introduction--------------------*/
-
-.introduction-heading {
-    color: #fafafa;
-}
-
-.paragraph {
-    color: #fafafa;
-}
-
-
-/*-----------------------------------Hover.CSS */
-
-.hvr-sweep-to-bottom:before {
-    background-color: rgba(0, 0, 0, 0.2);
-    height: 200px;
-}
-
-
-/*----------------------------------- Media Query*/
-
-@media(min-width: 992px) {
-    .nav {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 100%;
-    }
-}
-
-
