@@ -1,0 +1,577 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.top-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 42px;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 999;
+}
+.top-box .menu-box {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.top-box .ul-box {
+    display: table;
+    padding: 0;
+    margin: 0 auto;
+}
+.top-box .ul-box ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.top-box .ul-box ul li{
+    list-style: none;
+    float: left;
+}
+.top-box .ul-box ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 8px 30px;
+    color: white;
+    margin: 0 5px;
+    font-family: "Comic Sans MS",sans-serif;
+}
+.top-box .ul-box ul li:nth-child(1) a{
+    border-bottom: 3px solid #B7AB07;
+}
+.top-box .ul-box ul li a:hover{
+    border-bottom: 3px solid #B7AB07;
+}
+
+
+/*      */
+
+.intro-box {
+    margin: 0;
+    padding: 0;
+}
+.intro-box .back-image{
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    background-image: url(../images/Darkforest.jpg);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    opacity: 0.9;
+}
+.intro-box .text {
+    position: absolute;
+    top: 240px;
+    left: 20%;
+    text-align: center;
+}
+.intro-box .text .title{
+    font-size: 80px;
+    color: white;
+    width: 540px;
+    font-weight: bold;
+}
+.intro-box .text .s-title{
+    font-size: 20px;
+    color: white;
+    opacity: 0.8;
+}
+.intro-box .images{
+    position: absolute;
+    top: 200px;
+    left: 65%;
+    text-align: center;
+}
+.who-box {
+    margin: 0;
+    padding: 0;
+}
+.who-box .box{
+    padding: 0;
+    margin: 0;
+    background: black;
+    height: 700px;
+}
+.who-box .box .design-background {
+    position: relative;
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+.who-box .box .design-background .left-box{
+    position: absolute;
+    top: -18px;
+    left: -30px;
+    width:200px;
+    height: 100px;
+    background: black;
+    transform: rotate(-170deg);
+}
+.who-box .box .design-background .right-box{
+    position: absolute;
+    top: -18px;
+    right: -30px;
+    width:90%;
+    height: 100px;
+    background: black;
+    transform: rotate(178deg);
+}
+.who-box .box .design-background .cube{
+    position: absolute;
+    top: 20px;
+    right: -100px;
+    width:200px;
+    height: 200px;
+    background: black;
+    border:4px solid #E82E2E;
+    transform: rotate(150deg);
+    opacity: 0.4;
+}
+.who-box .box .design-background .circle{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    width:160px;
+    height: 160px;
+    background: black;
+    border:4px solid #B56B0A;
+    transform: rotate(150deg);
+    border-radius: 50%;
+    opacity: 0.4;
+}
+
+.who-box .box .design-background .triangle-box{
+    position: absolute;
+    top: 420px;
+    left: 190px;
+    transform: rotate(60deg);
+    opacity: 0.4;
+
+}
+.who-box .box .design-background .triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right:100px solid transparent;
+    border-left:100px solid transparent;
+    border-bottom:200px solid #B9B91F;
+}
+.who-box .box .design-background .trianglet{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-right:90px solid transparent;
+    border-left:90px solid transparent;
+    border-bottom:190px solid black;
+}
+.who-box .box .design-background .x {
+    position: absolute;
+    top: 400px;
+    right: 120px;
+    background: black;
+    transform: rotate(-15deg);
+    opacity: 0.4;
+}
+.who-box .box .design-background .x span:nth-child(1){
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background: #095495;
+    width: 10px;
+    height: 240px;
+    transform: rotate(45deg);
+}
+.who-box .box .design-background .x span:nth-child(2){
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background: #095495;
+    width: 10px;
+    height: 240px;
+    transform: rotate(-45deg);
+}
+.who-box .box .title-box {
+    position: relative;
+    top: 40px;
+    font-size: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19C27F;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 997;
+}
+.who-box .box .title-box .title{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.who-box .box .manette-box .manette{
+    position: relative;
+    top: -40px;
+    display: table;
+    margin: auto;
+    transform: rotate(180deg);
+    z-index: 996;
+}
+.who-box .box .who-text-box {
+    position: relative;
+    top: -60px;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    z-index: 997;
+    text-align: center;
+}
+.who-box .box .who-text-box .text{
+    display: table;
+    margin: auto;
+    width: 700px;
+    text-align: center;
+}
+.stream-box {
+    background: #101010;
+    padding: 0;
+    margin: 0;
+    height: 660px;
+}
+.stream-box .box .design-background {
+    position: relative;
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+.stream-box .box .design-background .left-box{
+    position: absolute;
+    top: -18px;
+    left: -30px;
+    width:200px;
+    height: 100px;
+    background: #101010;
+    transform: rotate(-170deg);
+}
+.stream-box .box .design-background .right-box{
+    position: absolute;
+    top: -18px;
+    right: -30px;
+    width:90%;
+    height: 100px;
+    background: #101010;
+    transform: rotate(178deg);
+}
+.stream-box .box .title-box {
+    position: relative;
+    top: 40px;
+    font-size: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19C27F;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 997;
+}
+.stream-box .box .title-box .title{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.manette-xbox-box {
+    position: relative;
+    padding: O;
+    margin: 0;
+}
+.manette-xbox-box .manette-xbox {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    opacity: 0.3;
+}
+.stream-box .box .xbox-text-box {
+    position: relative;
+    top: 140px;
+    left: 5%;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    z-index: 997;
+}
+.stream-box .box .xbox-text-box .text{
+    width: 700px;
+    text-align: center;
+}
+
+
+
+.schedule-box {
+    background: black;
+    padding: 0;
+    margin: 0;
+    height: 700px;
+}
+.schedule-box .box .design-background {
+    position: relative;
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+.schedule-box .box .design-background .left-box{
+    position: absolute;
+    top: -18px;
+    left: -30px;
+    width:200px;
+    height: 100px;
+    background: black;
+    transform: rotate(-170deg);
+}
+.schedule-box .box .design-background .right-box{
+    position: absolute;
+    top: -18px;
+    right: -30px;
+    width:90%;
+    height: 100px;
+    background: black;
+    transform: rotate(178deg);
+}
+.schedule-box .box .title-box {
+    position: relative;
+    top: 40px;
+    font-size: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19C27F;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 997;
+}
+.schedule-box .box .title-box .title{
+    position: absolute;
+    right: 240px;
+    padding: 0;
+    margin: 0;
+}
+.clock-box {
+    position: relative;
+    top: 60px;
+    opacity: 0.1;
+}
+.schedule-design-box {
+    padding: 0;
+    margin: 0;
+}
+
+.schedule-design-box .days-box {
+    position: relative;
+    top: -350px;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+}
+.schedule-design-box .days-box .days  {
+    position: absolute;
+    top: 0px;
+    right: 10%;
+    color: white;
+}
+.schedule-design-box .days-box .days ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.schedule-design-box .days-box .days ul li {
+    list-style: none;
+    padding: 10px 0px ;
+    margin: 0;
+}
+.schedule-design-box .days-box .days ul li .day-name{
+    float: left;
+    width: 150px;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19C27F;
+    font-weight: bold;
+}
+.schedule-design-box .days-box .days ul li .tube{
+    display: inline-block;
+    width: 450px;
+    height: 20px;
+    margin: 0;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #272727;
+    font-weight: bold;
+    font-size: 12px;
+}
+.schedule-design-box .days-box .days ul li .hour{
+    width: 50px;
+    margin: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #272727;
+    font-weight: bold;
+    font-size: 16px;
+}
+.schedule-design-box .days-box .days ul li .tube .am{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: 0 0 0 80px;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #19C27F;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+.schedule-design-box .days-box .days ul li .tube .pm{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: 0;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #19C27F;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 0 0 80px;
+
+}
+
+
+/*   */
+.footer-box {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.footer-box .footer {
+    padding: 0;
+    margin: 0;
+    background: #444444;
+    height: 80px;
+}
+.footer-box .footer .design-background {
+    position: relative;
+    margin:0;
+    padding: 0;
+    width: 100%;
+    z-index: 0;
+}
+.footer-box .footer .design-background .right-box{
+    position: absolute;
+    top: -18px;
+    right: -30px;
+    width:90%;
+    height: 50px;
+    background: #444444;
+    transform: rotate(178deg);
+}
+.footer-box .footer .copyright-box {
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+.footer-box .footer .copyright-box .text{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.footer-box .footer .contact-box{
+    padding: 0;
+    margin: 0;
+}
+.footer-box .footer .contact-box .contact {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+    padding: 0;
+    margin: 0;
+}
+.footer-box .footer .contact-box .contact .text {
+    position: absolute;
+    right: 80px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-box .footer .contact-box .contact .social-box {
+    padding: 0;
+    margin: 0;
+}
+.footer-box .footer .contact-box .contact .social-box .icons-links {
+    padding: 0;
+    margin: 0;
+}
+.footer-box .footer .contact-box .contact .social-box .icons-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-box .footer .contact-box .contact .social-box .icons-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0;
+}
+.footer-box .footer .contact-box .contact .social-box .icons-links ul a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+.hum {
+    display: none;
+}
+
+
+
+@media only screen and  (max-width:900px) {
+    .top-box ul{
+        display: none;
+    }
+    .ul-box {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 20px;
+    }
+    .hum {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: block;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .hum{
+        text-decoration: none;
+        color: white;
+    }
+    .ul-box i:hover  .ul-box ul {
+        display: inline-block;
+    }
+}
