@@ -543,35 +543,219 @@ body {
     font-size: 20px;
 }
 .hum {
-    display: none;
+    position: absolute;
+    visibility: hidden;
 }
 
-
+.chk {
+    position: absolute;
+    visibility: hidden;
+}
 
 @media only screen and  (max-width:900px) {
-    .top-box ul{
-        display: none;
+    body {
+        background: black;
     }
-    .ul-box {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        left: 20px;
+    .chk {
+        visibility: visible;
     }
+
+
     .hum {
+        visibility: visible;
         position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        display: block;
+        top: -33px;
+        left: 38px;
         color: white;
         font-size: 30px;
-        cursor: pointer;
     }
-    .hum{
-        text-decoration: none;
+    .chk {
+        position: absolute;
+        top: -33px;
+        left: 35px;
+        padding: 10px 30px;
+        opacity: 0;
+    }
+    .mb {
+        visibility: hidden;
+    }
+    .chk:checked ~ .mb{
+        visibility: visible;
+        background: #19C27F;
+    }
+    .top-box .menu-box {
+        position: absolute;
+        top: 0px;
+    }
+    .ul-box{
+        position: relative;
+        top:40px;
+        left: -10px;
+        height: 100%;
+    }
+    .top-box .ul-box ul li a{
+        width: 900px;
+        
+    }
+    .top-box .ul-box ul li:nth-child(1) a{
+        border-bottom: none;
+    }
+    
+    .top-box .ul-box ul li a:hover{
+        border: none;
+        background: #B56B0A;
+    }
+
+
+    .intro-box .back-image {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        background-size: 100% 50%;
+        background-position-y: 30px;
+    }
+    .intro-box .box .images{
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .intro-box .box .images img{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+    }
+
+    .intro-box .box .text {
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .intro-box .box .text .title{
+        width: 100%;
+        font-size:16px;
+    }
+    .intro-box .box .text .s-title{
+        position: relative;
+        font-size:12px;
+    }
+
+
+    .who-box {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 600px;
+    }
+    .who-box .box {
+        position: relative;
+        top: 400px;
+    }
+    .who-box .design-background {
+        display: none;
+    }
+
+    .who-box .title {
+        position: absolute;
+        top: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size:30px;
+    }
+    .who-box .manette-box {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .who-box .manette img{
+        width: 150px;
+    }
+    .who-box .box .who-text-box {
+        position: relative;
+        top: 80px;
+        font-size: 12px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         color: white;
+        padding: 0;
+        margin: 0;
+        z-index: 997;
+        text-align: center;
     }
-    .ul-box i:hover  .ul-box ul {
-        display: inline-block;
+    .who-box .box .who-text-box .text{
+        display: table;
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+
+
+
+    .stream-box .design-background{
+        display: none;
+    }
+    .stream-box {
+        position: relative;
+        overflow: hidden;
+        height: 200px;
+    }
+    .stream-box .title-box .title{
+        font-size:30px;
+    }
+    .stream-box .box .xbox-text-box {
+        position: relative;
+        top: 60px;
+    }
+    .stream-box .box .xbox-text-box .text{
+        width: 90%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .stream-box img{
+        display: none;
+    }
+
+
+
+
+    .schedule-box {
+        position: relative;
+        top: -70px;
+        overflow: hidden;
+        width: 100%;
+        height: 300px;
+    }
+    .schedule-box .box {
+        width: 100%;
+    }
+    .schedule-box .design-background{
+        display: none;
+    }
+
+    .schedule-box{
+        display: none;
+    }
+
+
+
+    .footer-box {
+        position: relative;
+        bottom: 0px;
+        display: block;
+    }
+    .footer-box .design-background {
+        display: none;
+    }
+    .footer-box .copyright-box .text span{
+        font-size: 8px;
+    }
+    .footer-box .contact-box .text span{
+        display: none;
+    }
+    .footer-box .social-box {
+        position: relative;
+        right: 10px;
     }
 }

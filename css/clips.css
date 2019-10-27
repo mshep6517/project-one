@@ -179,6 +179,131 @@ body {
     color: grey;
     font-size: 20px;
 }
+.chk {
+    position: absolute;
+    visibility: hidden;
+}
+.hum {
+    position: absolute;
+    visibility: hidden;
+}
+
+@media only screen and  (max-width:900px) {
+    body {
+        background: rgb(15, 15, 15);
+    }
+    .chk {
+        visibility: visible;
+    }
+
+    .hum {
+        visibility: visible;
+        position: absolute;
+        top: -33px;
+        left: 38px;
+        color: white;
+        font-size: 30px;
+    }
+    .chk {
+        position: absolute;
+        top: -33px;
+        left: 35px;
+        padding: 10px 30px;
+        opacity: 0;
+    }
+    .mb {
+        visibility: hidden;
+    }
+    .chk:checked ~ .mb{
+        visibility: visible;
+        background: #19C27F;
+    }
+    .top-box .menu-box {
+        position: absolute;
+        top: 0px;
+    }
+    .ul-box{
+        position: relative;
+        top:40px;
+        left: -10px;
+        height: 100%;
+    }
+    .top-box .ul-box ul li a{
+        width: 900px;
+        
+    }
+    .top-box .ul-box ul li:nth-child(2) a{
+        border-bottom: none;
+    }
+    
+    .top-box .ul-box ul li a:hover{
+        border: none;
+        background: #B56B0A;
+    }
+
+
+    .intro-box {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    .intro-box iframe{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 80%;
+    }
+    .other-videos-box {
+        position: relative;
+        padding: 0;
+        margin: 0; 
+        overflow: hidden;
+    }
+    .video {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .other-videos-box iframe{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        height: 40%;
+        padding: 0;
+        margin: 0; 
+    }
+    .other-videos-box .other-videos {
+        display:block;
+        margin: 0;
+        padding: 0;
+    }
+    .fvideo-box {
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
 
 
 
+
+    .footer-box {
+        position: relative;
+        bottom: 0px;
+        display: block;
+    }
+    .footer-box .design-background {
+        display: none;
+    }
+    .footer-box .copyright-box .text span{
+        font-size: 8px;
+    }
+    .footer-box .contact-box .text span{
+        display: none;
+    }
+    .footer-box .social-box {
+        position: relative;
+        right: 10px;
+    }
+}

@@ -59,7 +59,6 @@ body {
 
 .donation-box {
     position: relative;
-    height: 600px;
     width: 100%;
     background: #1A1A1A;
 }
@@ -390,3 +389,127 @@ body {
     font-size: 20px;
 }
 
+
+.hum {
+    position: absolute;
+    visibility: hidden;
+}
+
+.chk {
+    position: absolute;
+    visibility: hidden;
+}
+
+@media only screen and  (max-width:900px) {
+    body {
+        background: rgb(15, 15, 15);
+    }
+    .chk {
+        visibility: visible;
+    }
+
+    .hum {
+        visibility: visible;
+        position: absolute;
+        top: -33px;
+        left: 38px;
+        color: white;
+        font-size: 30px;
+    }
+    .chk {
+        position: absolute;
+        top: -33px;
+        left: 35px;
+        padding: 10px 30px;
+        opacity: 0;
+    }
+    .mb {
+        visibility: hidden;
+    }
+    .chk:checked ~ .mb{
+        visibility: visible;
+        background: #19C27F;
+    }
+    .top-box .menu-box {
+        position: absolute;
+        top: 0px;
+    }
+    .ul-box{
+        position: relative;
+        top:40px;
+        left: -10px;
+        height: 100%;
+    }
+    .top-box .ul-box ul li a{
+        width: 900px;
+        
+    }
+    .top-box .ul-box ul li:nth-child(3) a{
+        border-bottom: none;
+    }
+    
+    .top-box .ul-box ul li a:hover{
+        border: none;
+        background: #B56B0A;
+    }
+
+¨
+    .donation-box {
+        height: 200px;
+    }
+    .donation-box .box{
+        height: 400px;
+    }
+    .donation-box .design-box {
+        display: none;
+    }
+    .donation-box .text  {
+        width: 80%;
+    }
+    .donation-box .text-box  {
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+    }
+    .donation-box .text-box .text {
+        font-size: 12px;
+    }
+    .donation-box .title-box .title {
+        font-size: 30px;
+    }
+    .button-box {
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+    .button-box {
+        position: absolute;
+        top: 240px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+
+
+
+    .footer-box {
+        position: relative;
+        bottom: 0px;
+        display: block;
+    }
+    .footer-box .design-background {
+        display: none;
+    }
+    .footer-box .copyright-box .text span{
+        font-size: 8px;
+    }
+    .footer-box .contact-box .text span{
+        display: none;
+    }
+    .footer-box .social-box {
+        position: relative;
+        right: 10px;
+    }
+}
